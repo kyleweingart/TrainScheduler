@@ -1,18 +1,21 @@
+$(document).ready(function() {
+
+
 // // Initialize Firebase
-//   var config = {
-//     apiKey: "AIzaSyCBwKVBci49vuVTyugxBTImBxpeswxX2ds",
-//     authDomain: "trainscheduler-ba3c2.firebaseapp.com",
-//     databaseURL: "https://trainscheduler-ba3c2.firebaseio.com",
-//     projectId: "trainscheduler-ba3c2",
-//     storageBucket: "trainscheduler-ba3c2.appspot.com",
-//     messagingSenderId: "606412614658"
-//   };
+  var config = {
+    apiKey: "AIzaSyCBwKVBci49vuVTyugxBTImBxpeswxX2ds",
+    authDomain: "trainscheduler-ba3c2.firebaseapp.com",
+    databaseURL: "https://trainscheduler-ba3c2.firebaseio.com",
+    projectId: "trainscheduler-ba3c2",
+    storageBucket: "trainscheduler-ba3c2.appspot.com",
+    messagingSenderId: "606412614658"
+  };
   
-//   firebase.initializeApp(config);
+  firebase.initializeApp(config);
 
-//   var database = firebase.database();
+  var database = firebase.database();
 
-//   console.log(database);
+  console.log(database);
 
 
 
@@ -58,4 +61,4 @@
 // 4. Create a way to calculate when the next train will arrive using the difference between current time and scheduled train arrival time
 //    use moment.js formatting to set difference in minutes/change times to regular time AM PM, etc. 
 
-    
+  });
